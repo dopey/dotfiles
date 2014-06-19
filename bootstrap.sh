@@ -14,3 +14,9 @@ ln -s "$PWD"/ackrc ~/.ackrc
 
 rm -f ~/.htoprc
 ln -s "$PWD"/htoprc ~/.htoprc
+
+rm -f ~/.gitconfig
+ln -s "$PWD"/gitconfig ~/.gitconfig
+
+rm -f ~/.gitignore
+ln -s "$PWD"/gitignore ~/.gitignore
