@@ -1,16 +1,16 @@
 #!/bin/bash
 
-rm ~/.inputrc
+rm -f ~/.inputrc
 ln -s "$PWD"/inputrc ~/.inputrc
 
-rm ~/.tmux.conf
+rm -f ~/.tmux.conf
 ln -s "$PWD"/tmux.conf ~/.tmux.conf
 
-rm ~/.jshintrc
+rm -f ~/.jshintrc
 ln -s "$PWD"/jshintrc ~/.jshintrc
 
-rm ~/.ackrc
+rm -f ~/.ackrc
 ln -s "$PWD"/ackrc ~/.ackrc
 
-rm ~/.htoprc
+rm -f ~/.htoprc
 ln -s "$PWD"/htoprc ~/.htoprc
