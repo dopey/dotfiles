@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -o xtrace
+
 rm -f ~/.inputrc
 ln -s "$PWD"/inputrc ~/.inputrc
 
