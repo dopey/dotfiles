@@ -32,6 +32,7 @@
     plrm = pull --rebase origin master
     pl = pull --rebase
     ps = push origin
+    psd = push origin --delete
     psm = push origin master
     dif = diff --color
     hist = !git --no-pager log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short -20
