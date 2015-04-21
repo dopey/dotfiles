@@ -20,6 +20,8 @@
     changed = yellow
     untracked = red
 [alias]
+    ca = commit --amend
+    cane = commit --amend --no-edit
     co = checkout
     ci = commit
     st = status
@@ -30,7 +32,6 @@
     plr = pull --rebase origin
     plm = pull origin master
     plrm = pull --rebase origin master
-    pl = pull --rebase
     ps = push origin
     psd = push origin --delete
     psm = push origin master
