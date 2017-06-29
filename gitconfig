@@ -38,3 +38,5 @@
     dif = diff --color
     hist = !git --no-pager log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short -20
     history = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short`
+[push]
+	default = simple
